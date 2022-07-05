@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="grid-wrapper">
+    <ag-grid-angular style="width: 100%; height: 100%;" class="ag-theme-material" [columnDefs]="columnDefs"
+      [defaultColDef]="defaultColDef" [suppressRowClickSelection]="true" [rowSelection]="rowSelection"
+      [rowData]="rowData" (gridReady)="onGridReady($event)"></ag-grid-angular>
+  </div>
+  <div class="columns">
+    <button (click)="onBtExport()" style="font-weight: bold;" class="uk-button uk-button-primary uk-button-small">
+      Exportar para Excel
+    </button>
+    <label class="option" for="selectedOnly"><input class="checkbox" id="selectedOnly" type="checkbox"
+        #selectedOnly />Exportar somente marcados</label>
+    <div>
+    </div>
+  </div>
+</div>
+
+<app-upload></app-upload>
