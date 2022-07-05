@@ -1,0 +1,46 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "nome": "Mateus",
+      "usuario": "MateusM",
+      "email": "mateusm@gmail.com"
+    },
+    {
+      "id": 2,
+      "nome": "Miguel",
+      "usuario": "Miguel221",
+      "email": "miguel_221@gmail.com"
+    },
+    {
+      "id": 3,
+      "nome": "Gilson",
+      "usuario": "Gil901",
+      "email": "gilsontest@gmail.com"
+    },
+    {
+      "id": 4,
+      "nome": "Carla",
+      "usuario": "Carla_",
+      "email": "carlapra@gmail.com"
+    },
+    {
+      "id": 5,
+      "nome": "Thiago",
+      "usuario": "ThiagoM",
+      "email": "thigasm@gmail.com"
+    },
+    {
+      "id": 6,
+      "nome": "Daniel",
+      "usuario": "Danieltt",
+      "email": "danieltt@gmail.com"
+    },
+    {
+      "id": 7,
+      "nome": "Lucas",
+      "usuario": "Luscas",
+      "email": "luscas@gmail.com"
+    }
+  ]
+}
