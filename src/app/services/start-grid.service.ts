@@ -11,7 +11,7 @@ export class StartGridService {
   Start(params: GridReadyEvent, element: ElementRef) {
     element.nativeElement.checked = true;
     this.http.get<any[]>(
-      "http://localhost:8000/Users").subscribe((data) =>
+      "http://localhost:3000/Users").subscribe((data) =>
         params.api!.setRowData(data.filter((rec: any) => rec.nome != null))
       );
   }

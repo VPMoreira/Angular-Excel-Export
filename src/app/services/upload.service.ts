@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UploadService {
-  private API_BASE_URL = 'http://localhost:8000/Users';
+  private API_BASE_URL = 'http://localhost:3000/Users';
 
   constructor(private http: HttpClient) { }
 
