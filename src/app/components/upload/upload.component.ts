@@ -21,8 +21,7 @@ export class UploadComponent implements OnInit {
   }
 
   load() {
-    (sessionStorage['refresh'] == 'true' || !sessionStorage['refresh']) && location.reload();
-    sessionStorage['refresh'] = false;
+    window.location.reload();
   }
 
 
